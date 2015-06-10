@@ -195,6 +195,7 @@ class docker(
   $docker_command              = $docker::params::docker_command,
   $repo_opt                    = $docker::params::repo_opt,
   $nowarn_kernel               = $docker::params::nowarn_kernel,
+  $docker_users                = $docker::params::docker_users,
   $docker_cleanup              = $docker::params::docker_cleanup,
   $docker_cleanup_minute       = $docker::params::docker_cleanup_minute,
   $docker_cleanup_hour         = $docker::params::docker_cleanup_hour,
